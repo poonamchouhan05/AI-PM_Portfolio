@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poonam Chouhan | AI Product Manager Portfolio</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --border: #1f2937;
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.15);
+      --text: #9ca3af;
+      --text-bright: #f9fafb;
+      --tag-bg: #1e293b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem 1rem; }
+    .container { max-width: 950px; margin: 0 auto; }
+    
+    /* Header */
+    header { text-align: center; padding: 4rem 1rem 3rem; border-bottom: 1px solid var(--border); }
+    .avatar { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent); margin-bottom: 1.5rem; }
+    h1 { font-size: 2.6rem; color: var(--text-bright); margin-bottom: 0.25rem; font-weight: 700; }
+    .subtitle { color: var(--accent); font-weight: 600; font-size: 1.05rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 1rem; }
+    .bio { font-size: 1.2rem; color: var(--text-bright); max-width: 650px; margin: 0 auto 1.5rem; font-style: italic; }
+    .pills { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem; }
+    .pill { background: var(--tag-bg); color: #e2e8f0; border: 1px solid #334155; padding: 0.35rem 0.85rem; border-radius: 20px; font-size: 0.85rem; font-weight: 500; }
+
+    /* Sections */
+    section { margin: 4rem 0; }
+    h2 { font-size: 1.7rem; color: var(--text-bright); margin-bottom: 1.5rem; border-left: 4px solid var(--accent); padding-left: 0.8rem; }
+    .section-desc { margin-top: -1rem; margin-bottom: 1.5rem; font-size: 0.95rem; }
+    
+    /* Cards */
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+    .card h3 { color: var(--text-bright); font-size: 1.4rem; margin-bottom: 0.5rem; }
+    .badge { display: inline-block; background: var(--accent-glow); color: var(--accent); border: 1px solid var(--accent); font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 600; text-transform: uppercase; margin-bottom: 1rem; }
+    
+    /* Grid Layouts */
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    .grid-step { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.75rem; margin: 1.5rem 0; }
+    
+    .step-box { background: #0f172a; border: 1px solid #334155; padding: 0.85rem; border-radius: 8px; text-align: center; }
+    .step-box strong { color: var(--accent); display: block; font-size: 0.85rem; margin-bottom: 0.2rem; }
+    .step-box span { font-size: 0.8rem; }
+
+    /* Highlights & Lists */
+    ul { margin-left: 1.25rem; margin-top: 0.75rem; }
+    li { margin-bottom: 0.4rem; }
+    .highlight-box { background: #0f172a; border-left: 3px solid var(--accent); padding: 1rem; border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: 0.95rem; }
+    
+    /* Mockup images */
+    .mockup-img { width: 100%; border-radius: 8px; border: 1px solid var(--border); margin: 1.25rem 0; }
+    
+    /* Buttons & Footer */
+    .btn-group { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
+    .btn { display: inline-block; background: var(--accent); color: #0b0f19; font-weight: 600; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; transition: 0.2s ease; }
+    .btn:hover { opacity: 0.9; }
+    .btn-outline { background: transparent; color: var(--text-bright); border: 1px solid #475569; }
+    footer { text-align: center; padding: 4rem 1rem 2rem; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="images/profile.jpg" alt="Poonam Chouhan" class="avatar" onerror="this.style.display='none'">
+      <h1>Poonam Chouhan</h1>
+      <p class="subtitle">AI Product Manager</p>
+      <p class="bio">"I turn complex user problems into thoughtful, measurable AI products."</p>
+      <div class="pills">
+        <span class="pill">Generative AI</span>
+        <span class="pill">Prompt Engineering</span>
+        <span class="pill">Agentic AI</span>
+        <span class="pill">UX/UI Design</span>
+        <span class="pill">AI Evaluation</span>
+        <span class="pill">Responsible AI</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>What I Bring to AI Product Teams</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Product Strategy</h3>
+          <p>Mastered discovery, PRD writing, roadmapping, and framing ambiguous market opportunities into scoped, testable MVPs.</p>
+        </div>
+        <div class="card">
+          <h3>AI Understanding & Evaluation</h3>
+          <p>Hands-on prompt engineering, multimodal LLMs, agentic workflows, and benchmarking model accuracy and safety suites.</p>
+        </div>
+        <div class="card">
+          <h3>Human-Centered UX</h3>
+          <p>Rooted in empathy, qualitative research, wireframing, and structuring transparent human-AI interactions that build user trust.</p>
+        </div>
+        <div class="card">
+          <h3>Cross-Functional Execution</h3>
+          <p>Leading cross-functional engineering, design, and business teams to launch responsible AI products with clear GTM roadmaps.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured AI Case Studies</h2>
+
+      <div class="card">
+        <span class="badge">Flagship AI Product</span>
+        <h3>01 / TradeLens — Multimodal AI Trading Assistant</h3>
+        <p>A decision-support platform designed to help traders interpret chart screenshots, calculate precise risk parameters, and overcome emotional bias without replacing human agency.</p>
+        
+        <img src="images/tradelens-ui.jpg" alt="TradeLens Interface Mockup" class="mockup-img" onerror="this.style.display='none'">
+
+        <div class="highlight-box">
+          <strong>Strategic Opportunity:</strong> Moving away from "black-box automated trade signals" to a transparent AI co-pilot that reinforces discipline and risk management.
+        </div>
+
+        <h4 style="color: #e2e8f0; margin-top: 1.25rem;">Core User Journey & Scope</h4>
+        <div class="grid-step">
+          <div class="step-box"><strong>1. Upload</strong><span>Chart Image</span></div>
+          <div class="step-box"><strong>2. AI Vision</strong><span>Pattern Recog.</span></div>
+          <div class="step-box"><strong>3. Setup</strong><span>Bias & SL/TP</span></div>
+          <div class="step-box"><strong>4. Risk Check</strong><span>Guardrail 1:2</span></div>
+          <div class="step-box"><strong>5. Decision</strong><span>Human Gate</span></div>
+          <div class="step-box"><strong>6. Journal</strong><span>Auto-Log</span></div>
+        </div>
+
+        <ul>
+          <li><strong>MVP Features:</strong> Multimodal vision analysis, structured Bias/Entry/SL/TP outputs, 1:2 R/R guardrail alerts, and one-click journaling.</li>
+          <li><strong>Deliberately Out of Scope (V1):</strong> Direct broker execution and high-frequency trading (to prioritize risk safety and avoid compliance liability).</li>
+          <li><strong>North Star Metric:</strong> <em>Completed Analysis &rarr; Outcome Loop Rate</em> (% of uploaded charts where users validate setups and log outcomes).</li>
+          <li><strong>Quality Dimensions:</strong> Accuracy, Consistency, Relevance, Safety, and User Value.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="badge">Responsible AI Governance</span>
+        <h3>02 / AI Loan Eligibility Assistant</h3>
+        <p>A financial governance concept focused on building automated credit decisioning with built-in fairness, privacy, and explainability.</p>
+        
+        <div class="grid-2" style="margin-top: 1rem;">
+          <div style="background: #0f172a; padding: 1rem; border-radius: 8px;">
+            <strong style="color: var(--accent);">1. Bias Mitigation</strong>
+            <p style="font-size: 0.9rem; margin-top: 0.3rem;">Feature-masking applied to demographic attributes to prevent discriminatory scoring.</p>
+          </div>
+          <div style="background: #0f172a; padding: 1rem; border-radius: 8px;">
+            <strong style="color: var(--accent);">2. Privacy Protection</strong>
+            <p style="font-size: 0.9rem; margin-top: 0.3rem;">Zero data retention on sensitive personal financial records.</p>
+          </div>
+          <div style="background: #0f172a; padding: 1rem; border-radius: 8px;">
+            <strong style="color: var(--accent);">3. Explainability</strong>
+            <p style="font-size: 0.9rem; margin-top: 0.3rem;">Plain-language rationale generated for every automated recommendation audit log.</p>
+          </div>
+          <div style="background: #0f172a; padding: 1rem; border-radius: 8px;">
+            <strong style="color: var(--accent);">4. HITL Governance</strong>
+            <p style="font-size: 0.9rem; margin-top: 0.3rem;">Mandatory licensed loan officer review and sign-off required for all rejections.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="badge">Agentic AI System</span>
+        <h3>03 / AI Job Application Agent</h3>
+        <p>An autonomous agentic pipeline designed to eliminate job-search fatigue by decomposing repetitive applications into modular sub-tasks.</p>
+        
+        <div class="grid-step">
+          <div class="step-box"><strong>Agent 1</strong><span>Job Discovery</span></div>
+          <div class="step-box"><strong>Agent 2</strong><span>JD Analysis</span></div>
+          <div class="step-box"><strong>Agent 3</strong><span>Profile Match</span></div>
+          <div class="step-box" style="border-color: var(--accent);"><strong>Human Gate</strong><span>Draft Approval</span></div>
+          <div class="step-box"><strong>Agent 4</strong><span>App Tracking</span></div>
+        </div>
+        <p style="font-size: 0.9rem; margin-top: 0.5rem;"><strong>Responsible Guardrail:</strong> Prohibits fully unmonitored automated submissions, enforcing user verification to ensure high quality and personalized authenticity.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Production Experience & Design Integration</h2>
+      <div class="grid-2">
+        <div class="card">
+          <span class="badge">Production Workflows</span>
+          <h3>Generative AI at Intellivision Media</h3>
+          <p>Accelerated media production cycles using generative AI pipelines:</p>
+          <ul>
+            <li>Concept art & cinematic visual asset pipelines.</li>
+            <li>Multi-prompt iteration & style anchor frameworks.</li>
+            <li>Maintaining character & lighting consistency across scenes.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <span class="badge">UX & Product Toolkit</span>
+          <h3>Human-AI UX Integration</h3>
+          <p>Structuring human-AI feedback loops and intuitive interfaces:</p>
+          <ul>
+            <li><strong>User Research:</strong> Qualitative interviews & mental model mapping.</li>
+            <li><strong>Interaction Design:</strong> Friction mapping & confidence thresholds.</li>
+            <li><strong>Testing & Iteration:</strong> Usability tests evaluating trust in model outputs.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>6-Stage AI Product Methodology</h2>
+      <div class="grid-3">
+        <div class="card" style="padding: 1.25rem;">
+          <strong style="color: var(--accent);">01 / DISCOVER</strong>
+          <p style="font-size: 0.85rem; margin-top: 0.3rem;">Validate core pain points; ensure AI is necessary over rule-based systems.</p>
+        </div>
+        <div class="card" style="padding: 1.25rem;">
+          <strong style="color: var(--accent);">02 / DEFINE</strong>
+          <p style="font-size: 0.85rem; margin-top: 0.3rem;">Target precision/recall trade-offs, scope constraints, and PRD metrics.</p>
+        </div>
+        <div class="card" style="padding: 1.25rem;">
+          <strong style="color: var(--accent);">03 / DESIGN</strong>
+          <p style="font-size: 0.85rem; margin-top: 0.3rem;">Architect human-in-the-loop flows, system prompts, and UI states.</p>
+        </div>
+        <div class="card" style="padding: 1.25rem;">
+          <strong style="color: var(--accent);">04 / BUILD</strong>
+          <p style="font-size: 0.85rem; margin-top: 0.3rem;">Partner with AI engineers on latency, APIs, and sprint backlogs.</p>
+        </div>
+        <div class="card" style="padding: 1.25rem;">
+          <strong style="color: var(--accent);">05 / EVALUATE</strong>
+          <p style="font-size: 0.85rem; margin-top: 0.3rem;">Benchmark outputs across accuracy, safety, consistency, and metrics.</p>
+        </div>
+        <div class="card" style="padding: 1.25rem;">
+          <strong style="color: var(--accent);">06 / ITERATE</strong>
+          <p style="font-size: 0.85rem; margin-top: 0.3rem;">Analyze telemetry, tune prompts, and address emerging edge cases.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h2>Let's Build Together</h2>
+      <p style="margin-bottom: 1.5rem; color: #e2e8f0;">"Building AI products that are useful, understandable, and responsible."</p>
+      <div class="btn-group">
+        <a href="https://linkedin.com/in/your-profile" target="_blank" class="btn">Connect on LinkedIn</a>
+        <a href="https://github.com/your-username" target="_blank" class="btn btn-outline">GitHub Projects</a>
+        <a href="Poonam_Chouhan_Portfolio.pdf" target="_blank" class="btn btn-outline">Download PDF Deck</a>
+      </div>
+      <p style="margin-top: 3rem; font-size: 0.85rem; color: #64748b;">Poonam Chouhan &bull; Portfolio 2026 &bull; Open for AI Product Manager Opportunities</p>
+    </footer>
+  </div>
+
+</body>
+</html>
